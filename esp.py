@@ -11,7 +11,7 @@ wifi = network.WLAN(network.STA_IF)
 if not wifi.active():
     print("ligando wi-fi no esp")
     wifi.active(True)
-    wifi.connect("Gabriel_2.4GHz", "Bidu2024")
+    wifi.connect("nome_rede_wifi", "senha_rede_wifi")
 
 while not wifi.isconnected():
         pass
